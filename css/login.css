@@ -1,0 +1,98 @@
+.logIn {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    padding: 3rem;
+    background-image: url(../img/QuadroNegro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.boas_vindas {
+    color: white;
+    grid-column: 1/8;
+    grid-row: 3/13;
+    padding: 1rem;
+}
+
+.boas_vindas h1 {
+    margin-bottom: 1rem;
+}
+
+.boas_vindas>p {
+    line-height: 1.5rem;
+}
+
+.card_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background: white;
+    grid-column: 9/13;
+    grid-row: 3/12;
+    border-radius: 8px;
+    padding: 0rem 2rem;
+    position: relative;
+}
+
+.card_login h1 {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.gravatar img {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    margin-top: 4.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    /* background-color: aqua; */
+}
+
+input {
+    padding: .5rem;
+    width: 80%;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 3px solid #E6E6EA;
+}
+
+
+button {
+    width: 120px;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 3px solid #E6E6EA;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+span,
+a {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    padding: .5rem;
+}

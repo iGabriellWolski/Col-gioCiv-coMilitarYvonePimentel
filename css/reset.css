@@ -1,0 +1,29 @@
+@import url(style.css);
+@import url(variaves.css);
+@import url(header.css);
+@import url(home.css);
+@import url(institucional.css);
+@import url(estrutura.css);
+@import url(diciplinas.css);
+@import url(matricula.css);
+@import url(login.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-destaque);
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+
+
+}
+
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: #E6E6EA;
+    border-radius: 4px;
+}

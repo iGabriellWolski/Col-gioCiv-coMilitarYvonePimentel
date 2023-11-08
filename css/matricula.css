@@ -1,0 +1,8 @@
+.matricula{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(8,1fr);
+    padding: 3rem;
+    height: 100vh;
+    
+}

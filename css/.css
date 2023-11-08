@@ -1,0 +1,68 @@
+.diciplinas {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 100px, 1fr);    
+    box-shadow: inset 0px 0px 15px 5px rgba(0, 0, 0, 0.10);
+    padding: 3rem;
+}
+
+.grade_curricular{
+    grid-row: 1/3;
+    grid-column: 1/13;
+   /* background-color: red; */
+}
+
+.grade_curricular  h1{
+    margin-bottom: 1rem;
+}
+
+.grade_curricular > p{
+    text-indent: 1rem;
+}
+.ensino_geral {
+    /* background-color: red; */
+    grid-column: 1/13;
+    grid-row: 3/7;
+    padding: 1rem;
+}
+
+.ensino_geral_grade {
+    display: flex;
+    gap: 2rem;
+}
+
+.ensino_geral_lista {
+    list-style: none;
+}
+
+.ensino_geral_lista_item {
+    text-align: center;
+    /* color: white; */
+    font-weight: bold;
+    border-radius: 4px;
+    padding: .5rem;
+    margin: .5rem 0rem;
+    background-color: var(--background-faq);
+}
+.texto_pedagogico{
+    max-width: 50%;
+}
+
+.texto_pedagogico > h2{
+    margin-bottom: 1rem;
+}
+
+.texto_pedagogico > p{
+    text-indent: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.ensino_geral_img{
+    height: 100%;
+}
+
+.ensino_geral_img > img {
+    height: 100%;
+    width: 100%;
+}
